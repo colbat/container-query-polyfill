@@ -3,6 +3,11 @@
 *Please note that this polyfill is now in maintenance mode, as of Nov, 2022. We are not planning to add more features or enhancements.*
 ____________________________
 
+**This is a fork of [GoogleChromeLabs/container-query-polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill) to support iOS Safari versions below 14.5.**
+
+____________________________
+
+
 A small (9 kB compressed) polyfill for CSS Container Queries using [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) and [`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) supporting the full [`@container`](https://drafts.csswg.org/css-contain-3/) query syntax:
 
 - Discrete queries (`width: 300` and `min-width: 300px`)
